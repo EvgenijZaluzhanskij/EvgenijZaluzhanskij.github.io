@@ -1,0 +1,42 @@
+table, th, td {
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    height: fit-content;
+    width: 90%;
+}
+
+caption {
+    font-style: italic;
+    font-size: 25pt;
+}
+
+img {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.white_background {
+    background-color: white;
+}
+
+.gray_background {
+    background-color: #c4c4c4;
+}
+
+.red_text {
+    color: #861111;
+}
