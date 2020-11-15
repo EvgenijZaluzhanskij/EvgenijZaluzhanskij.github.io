@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+li {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    max-width: 1164px;
+    min-width: 1164px;
+    width: 100%;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.blog_header {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+
+    font-family: 'Press Start 2P';
+
+    padding: 23px;
+
+    max-height: 50px;
+    height: 100%;
+
+    background-color: teal;
+}
+
+.blog_navigation {
+    position: sticky;
+    top: 0;
+
+    background-color: white;
+    margin: 0;
+}
+
+.blog_header_image {
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.blog_title {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+    color: white;
+}
+
+.nav_articles_groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    max-height: 50px;
+    padding: 25px;
+    margin: 0;
+    
+    color: #4e4e4e;
+    font-family: 'Press Start 2P';
+
+    list-style: none;
+
+    border-bottom: 1px solid black;
+}
+
+.teal_hover:hover {
+    color: teal;
+}
+
+.blog_body {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog_content_header {
+    display: flex;
+    align-items: center;
+
+    height: 150px;
+    padding-left: 25px;
+
+    color: #4e4e4e;
+
+    font-family: 'Press Start 2P';
+}
+
+.articles_types {
+    display: flex;
+    flex-direction: row;
+
+    color: #4e4e4e;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Russo One';
+
+    border-bottom: 1px solid black;
+}
+
+.blog_content {
+    width: 800px;
+}
+
+.advert_block {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 100%;
+
+    align-content: center;
+    align-items: center;
+
+    padding-left: 64px;
+
+    margin: 0;
+
+    text-align: center;
+}
+
+.advert_text {
+    font-family: 'Russo One';
+    font-size: 30px;
+}
+
+.rightside_bg_image {
+    width: 300px;
+    height: 100%;
+
+    padding-top: 25px;
+    padding-right: 0;
+}
+
+.avatar_image {
+    width: 25px;
+    height: 25px;
+}
+
+.article_author {
+    display: flex;
+    align-items: center;
+}
+
+.article_author_url{
+    margin-left: 10px;
+    color: teal;
+}
+
+.article_author_url:hover {
+    color: #919191
+}
+
+.article_publish_time{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #4e4e4e;
+}
+
+.article_header {
+    color: teal;
+    font-family: 'Russo One';
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 28px;
+
+    margin-top: 10px;
+}
+
+.article_header:hover {
+    color: #919191
+}
+
+.article_categories {
+    display: inline;
+    flex-direction: row;
+    list-style: none;
+
+    font-size: 15px;
+
+    padding: 0;
+    list-style-type: none;
+}
+
+.article_categories li {
+    display: inline;
+    
+}
+
+.article_image{
+    height: 440px;
+    width: 100%;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.article_preview{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    clear: both;
+
+    margin-top: 15px;
+}
+
+.article_read_full{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+
+    cursor: pointer;
+
+    color: teal;
+
+    border: 1px solid teal;
+    border-radius: 5px;
+    height: 36px;
+    width: 117px;
+
+    padding: 0 13px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+}
+
+.article_read_full:hover {
+    background-color: teal;
+    color: white;
+}
+
+.article_footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    margin-top: 15px;
+
+    height: 36px;
+    width: 250px;
+
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.article_footer li {
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+}
+
+li.green_text {
+    color: green;
+}
+
+a.black_text {
+    color: black;
+}
+
+a.black_text:hover {
+    color: #919191
+}
+
+.article_footer_image {
+    width: 15px;
+    height: 15px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog_footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.blog_footer_text {
+    margin: 15px 0;
+    padding: 0;
+
+    font-family: 'Stalinist One';
+}
