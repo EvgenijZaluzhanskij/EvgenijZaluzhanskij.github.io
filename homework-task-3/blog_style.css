@@ -132,7 +132,7 @@ p {
     width: 800px;
 }
 
-.advert_block {
+.right_side_block {
     display: flex;
     flex-direction: column;
 
@@ -149,12 +149,12 @@ p {
     text-align: center;
 }
 
-.advert_text {
+.right_side_block_text {
     font-family: 'Russo One';
     font-size: 30px;
 }
 
-.rightside_bg_image {
+.right_side_block_image {
     width: 300px;
     height: 100%;
 
