@@ -1,0 +1,37 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    min-height: 124px;
+}
+
+.header__navigation {
+    font-family: 'OSReg';
+
+    font-size: 16px;
+    line-height: 20px;
+
+    height: 20px;
+    width: 520px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigationLink {
+    color: #001A34;
+    text-decoration: none;
+}
+
+.header__tagline {
+    font-family: 'OSBold';
+
+    font-size: 25px;
+    line-height: 26px;
+
+    color: #001A34;
+}
