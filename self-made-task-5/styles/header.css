@@ -23,8 +23,11 @@
 }
 
 .header__navigationLink {
-    color: #001A34;
+    color: var(--c-midnight);
     text-decoration: none;
+
+    line-height: 20px;
+    font-style: 16px;
 }
 
 .header__tagline {

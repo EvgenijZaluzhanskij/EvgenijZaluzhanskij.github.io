@@ -1,7 +1,10 @@
 @import './normalize.css';
 @import './font.css';
 @import './header.css';
-
+@import './variables.css';
+@import './common.css';
+@import './hero.css';
+@import './courses.css';
 
 .mainWrapper {
     width: 100%;
@@ -11,8 +14,12 @@
 
     display: grid;
     grid-template-areas:
-    '. header .';
+    '. header .'
+    '. heroMain .'
+    '. courses .'
+    '. heroSecond .';
     grid-template-columns: 92px 1fr 92px;
 
-    font-family: 'OSReg';
+    font-family: var(--f-reg);
+    color: var(--c-midnight);
 }
