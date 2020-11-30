@@ -1,0 +1,17 @@
+.gridSearch {
+    grid-area: search;
+
+    padding-bottom: 22px;
+    padding-left: 32px;
+    padding-right: 36px;
+    padding-top: 20px;
+}
+
+.gridSearch--input {
+    width: 100%;
+
+    font-style: italic;
+
+    max-width: 2200px;
+    min-width: 1024px;
+}

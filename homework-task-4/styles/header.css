@@ -1,0 +1,77 @@
+.gridHeader {
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+    'header_name header_nav header_features';
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: black;
+
+    position: sticky;
+    top: 0;
+}
+
+.gridHeaderName {
+    grid-area: header_name;
+    color: white;
+    display: flex;
+
+    align-items: center;
+    margin-left: 15px;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.gridHeaderNav {
+    grid-area: header_nav;
+}
+
+.gridHeaderNavElements{
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: rgb(112, 112, 112);
+}
+
+.gridHeaderFeatures {
+    grid-area: header_features;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.gridHeaderFeatures--icon {
+    width: 20px;
+    height: 20px;
+
+    padding-right: 8px;
+    padding-right: 8px;
+}
+
+.gridHeaderFeatures-signIn {
+    display: flex;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-right: 8px;
+
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+}

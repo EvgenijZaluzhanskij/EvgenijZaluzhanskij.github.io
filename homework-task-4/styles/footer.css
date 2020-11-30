@@ -1,0 +1,53 @@
+.gridFooter {
+    grid-area: grid_footer;
+
+    display: grid;
+    grid-template-areas:
+    'footer_nav footer_logo';
+    grid-template-columns: 1fr 100px;
+    grid-template-rows: 1fr;
+
+    background-color: black;
+
+    /* position: sticky;
+    bottom: 0; */
+
+}
+
+.gridFooter__Nav {
+    grid-area: footer_nav;
+    display: flex;
+
+}
+
+.gridFooter__NavElements {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 0;
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 300px;
+
+    color: rgb(112, 112, 112);
+
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footerLogo {
+    grid-area: footer_logo;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    color: white;
+}
