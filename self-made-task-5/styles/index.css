@@ -5,6 +5,7 @@
 @import './common.css';
 @import './hero.css';
 @import './courses.css';
+@import './request.css';
 
 .mainWrapper {
     width: 100%;
@@ -17,7 +18,8 @@
     '. header .'
     '. heroMain .'
     '. courses .'
-    '. heroSecond .';
+    '. heroSecond .'
+    'request request request';
     grid-template-columns: 92px 1fr 92px;
 
     font-family: var(--f-reg);
