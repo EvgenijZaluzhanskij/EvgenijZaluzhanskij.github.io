@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.mainWrapper {
+    max-width: 1024px;
+    min-width: 320px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 0;
+
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 30px;
+}
+
+.grid:last-of-type {
+    margin-bottom: 0;
+}
+
+.gridElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: yellowgreen;
+}
+
+.gridElement.gridElement--yellow {
+    background-color: yellow;
+}
+
+.grid--simple {
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 4fr 5fr 6fr;
+}
+
+.grid--withOneElement {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.gridElement--theOnly {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.grid--complex {
+    grid-template-areas:
+    "header header header"
+    "nav content ."
+    "footer footer footer";
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
+}
+
+.gridElement--header{
+    grid-area: header;
+    background-color: #f2c36b;
+}
+
+.gridElement--nav {
+    grid-area: nav;
+}
+
+.gridElement--content {
+    grid-area: content;
+    background-color: #f2f2f2;
+}
+
+.gridElement--footer {
+    grid-area: footer;
+    background-color: black;
+}
