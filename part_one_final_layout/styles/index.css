@@ -1,0 +1,31 @@
+@import './normalize.css';
+@import './variables.css';
+@import './fonts.css';
+@import './common.css';
+@import './header.css';
+@import './consulting.css';
+@import './services.css';
+@import './providers.css';
+@import './mobile.css';
+@import './customers.css';
+@import './articles.css';
+
+
+.fullLanding {
+    display: grid;
+
+    grid-template-areas:
+    '. siteHeader .'
+    '. consulting .'
+    '. services .'
+    'providers providers providers'
+    'mobile mobile mobile'
+    '. customers .'
+    '. articles .';
+    grid-template-columns: var(--main-side-gap) 1fr var(--main-side-gap);
+
+    max-width: 1600px;
+    width: 100%;
+
+    margin: 56px auto 0 auto;
+}

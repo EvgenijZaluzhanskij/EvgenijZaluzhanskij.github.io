@@ -1,0 +1,14 @@
+:root {
+    --main-side-gap: 192px;
+
+    --f-mulish-bold: 'MulishBold';
+    --f-mulish-regular: 'MulishRegular';
+    --f-mulish-light: 'MulishLight';
+
+    --c-cloud-burst: #233348;
+    --c-revolver: #1F1534;
+    --c-black: #000000;
+    --c-topaz: #7D7987;
+    --c-white: #FFFFFF;
+    --c-cornflower-blue: #458FF6;
+}

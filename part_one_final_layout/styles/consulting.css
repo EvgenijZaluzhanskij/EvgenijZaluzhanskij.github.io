@@ -1,0 +1,75 @@
+.consulting {
+    grid-area: consulting;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-bottom: 157px;
+}
+
+.consulting__info {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 106px;
+
+    margin-right: 109px;
+}
+
+.info__title {
+    margin: 0 0 25px 0;
+
+    color: var(--c-black);
+
+    font-family: var(--f-mulish-bold);
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    text-align: left;
+}
+
+.info__description {
+    margin: 0 0 45px 0;
+
+    color: var(--c-topaz);
+
+    font-family: var(--f-mulish-light);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+
+    mix-blend-mode: normal;
+
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.consulting__image {
+    grid-area: consultingInfo;
+
+    width: 693px;
+    height: 598px;
+}

@@ -1,0 +1,121 @@
+.services {
+    grid-area: services;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    margin-bottom: 220px;
+}
+
+.services__title {
+    margin: 0 0 26px 0;
+
+    font-family: var(--f-mulish-bold);
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+
+    color: var(--c-black);
+
+    mix-blend-mode: normal;
+
+    text-align: center;
+}
+
+.services__separateImage {
+    width: 56px;
+    height: 2px;
+
+    margin-bottom: 33px;
+}
+
+.services__description {
+    color: var(--c-topaz);
+
+    font-family: var(--f-mulish-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    mix-blend-mode: normal;
+
+    margin: 0 131px 80px 131px;
+}
+
+.services__gridTable {
+    display: grid;
+
+    margin-bottom: 69px;
+
+    max-width: 1120px;
+    width: 100%;
+
+    max-height: 745px;
+    width: 100%;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 354px);
+
+    gap: 37px 34px;
+}
+
+.services__gridTableItem {
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 350px;
+    width: 100%;
+
+    max-height: 354px;
+    height: 100%;
+
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.gridTableItem__image {
+    width: 92px;
+    height: 90px;
+    
+    margin: 54px 0 0 37px;
+
+    margin-bottom: 23px;
+}
+
+.gridTableItem__title {
+    text-align: left;
+    align-items: center;
+
+    font-family: var(--f-mulish-bold);
+    font-style: normal;
+    font-size: 24px;
+    line-height: 56px;
+
+    color: var(--c-black);
+
+    mix-blend-mode: normal;
+
+    margin: 0 0 1px 39px;
+}
+
+.gridTableItem__description {
+    font-family: var(--f-mulish-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: var(--c-topaz);
+
+    mix-blend-mode: normal;
+
+    margin: 0 0 47px 39px;
+}
