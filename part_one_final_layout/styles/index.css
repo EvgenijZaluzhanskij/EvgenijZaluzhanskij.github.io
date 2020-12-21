@@ -9,6 +9,7 @@
 @import './mobile.css';
 @import './customers.css';
 @import './articles.css';
+@import './footer.css';
 
 
 .fullLanding {
@@ -21,7 +22,8 @@
     'providers providers providers'
     'mobile mobile mobile'
     '. customers .'
-    '. articles .';
+    '. articles .'
+    'siteFooter siteFooter siteFooter';
     grid-template-columns: var(--main-side-gap) 1fr var(--main-side-gap);
 
     max-width: 1600px;

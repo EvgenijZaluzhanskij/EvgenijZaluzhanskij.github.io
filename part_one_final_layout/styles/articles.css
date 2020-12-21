@@ -6,6 +6,8 @@
 
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 201px;
 }
 
 .articles__title {
@@ -23,4 +25,110 @@
 
 .articles__separator {
     margin-bottom: 79px;
+}
+
+.articles__container {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 69px;
+}
+
+.articles__containerItem {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+    max-width: 350px;
+    width: 100%;
+
+    min-height: 512px;
+
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+
+    margin-right: 24px;
+}
+
+.articles__containerItem:last-child {
+    margin-right: 0;
+}
+
+
+.articleItem__image {
+    height: 240px;
+    min-width: 350px;
+    width: 100%;
+    background: center / cover no-repeat;
+}
+
+.articleItem__image--first {
+    background-image: url(../images/backgrounds/diseaseDetection.svg);
+}
+
+.articleItem__image--second {
+    background-image: url(../images/backgrounds/herbalMedicines.svg);
+}
+
+.articleItem__image--third {
+    background-image: url(../images/backgrounds/naturalCare.svg);
+}
+
+.articleItem__descriptionTitle {
+    margin: 24px 0 12px 33px;
+
+    font-family: var(--f-mulish-bold);
+    font-style: normal;
+    font-size: 21px;
+    line-height: 32px;
+
+    color: var(--c-black);
+}
+
+.articleItem__descriptionText {
+    margin: 0 0 25px 33px;
+
+    color: var(--c-topaz);
+
+    font-family: var(--f-mulish-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.articleItem__descriptionLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 35px 33px;
+
+    max-width: 110px;
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.descriptionLink__text {
+    text-decoration: none;
+
+    margin: 0;
+
+    font-family: var(--f-mulish-regular);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+
+    color: var(--c-picton-blue);
+}
+
+.descriptionLink__image {
+    width: 14px;
+    height: 9px;
+
+    margin-top: 3px;
 }
