@@ -6,6 +6,7 @@
 @import './hero.css';
 @import './courses.css';
 @import './request.css';
+@import './adv.css';
 
 .mainWrapper {
     width: 100%;
@@ -19,9 +20,16 @@
     '. heroMain .'
     '. courses .'
     '. heroSecond .'
+    '. adv .'
     'request request request';
-    grid-template-columns: 92px 1fr 92px;
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
 
     font-family: var(--f-reg);
     color: var(--c-midnight);
+}
+
+@media (max-width: 1600px) {
+    .mainWrapper {
+        --side-gap: 46px;
+    }
 }

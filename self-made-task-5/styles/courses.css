@@ -2,10 +2,110 @@
     grid-area: courses;
     min-height: 655px;
     padding: 80px 0;
-
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    width: 100%;
+
+    overflow: hidden;
+  }
+  
+  .courses__title {
+    margin-bottom: 64px;
+    font-size: 46px;
+    line-height: 54px;
+  }
+  
+  .courses__container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .courses__item {
+    height: 376px;
+    width: 376px;
+    margin-right: 24px;
+    border: 1px solid var(--c-mystic);
+    border-radius: 12px;
     box-sizing: border-box;
-}
+    box-shadow: 2px 2px 20px var(--c-mystic);
+    overflow: hidden;
+
+    flex-shrink: 0;
+    min-height: 376px;
+  }
+  
+  .courses__item:last-child {
+    margin-right: 0;
+  }
+  
+  .courses__itemImage {
+    height: 173px;
+    width: 100%;
+    background: center cover no-repeat;
+  }
+  
+  .courses__itemImage--bs {
+      background-image: url(../img/courses-bs.jpg);
+  }
+  
+  .courses__itemImage--py {
+      background-image: url(../img/courses-py.jpg);
+  }
+  
+  .courses__itemImage--fe {
+      background-image: url(../img/courses-fe.jpg);
+  }
+  
+  .courses__itemInfo {
+      padding: 32px 24px;
+  }
+  
+  .courses__itemTitle {
+      font-size: 24px;
+      line-height: 28px;
+      margin: 0 0 16px;
+  }
+  
+  .courses__itemText {
+      margin-bottom: 24px;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: var(--f-light);
+  }
+  
+  .courses__itemLink {
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+      color: #005BFF;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.7px;
+      text-decoration: none;
+  }
+
+  @media (max-width: 1400px) {
+        .courses__container {
+            height: 430px;
+        }
+
+      .courses__item {
+            width: 276px;
+            height: 100%;
+        }
+  }
+
+  @media (max-width: 1040px) {
+    .courses__container {
+        justify-content: flex-start;
+    }
+  }
