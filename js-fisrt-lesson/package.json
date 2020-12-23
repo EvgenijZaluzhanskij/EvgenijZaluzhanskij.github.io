@@ -1,0 +1,14 @@
+{
+  "name": "js-first-lesson",
+  "version": "1.0.0",
+  "description": "My first js lesson",
+  "main": "for-console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jugin Krabbs",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.12"
+  }
+}
